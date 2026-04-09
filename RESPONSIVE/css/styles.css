@@ -1,0 +1,148 @@
+/* Global Styles */
+
+body {
+    background-color: wheat;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+a {
+    color: rgb(13, 0, 129);
+}
+
+a:hover {
+    color: rgb(35, 130, 255);
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    padding: 40px;
+    border-bottom: 5px solid goldenrod
+}
+
+header h1 {
+    font-size: 50px;
+    color: rgb(0, 50, 187);
+   
+}
+
+main h2{
+    text-align: center;
+    color: rgb(0, 50, 187);
+}
+
+/* Mobile Style */
+
+#container {
+    padding: 10px;
+    border: 3px solid #E29D1D;
+}
+
+nav {
+    text-align: center;
+    border-bottom: 5px solid goldenrod
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a {
+    display: block;
+    background-color: rgb(255, 207, 51);
+    color: rgb(45, 94, 255);
+    width: 175px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom: 3px solid goldenrod
+
+}
+
+nav li a:hover {
+    color: goldenrod;
+    background-color:rgb(45, 94, 255);
+}
+
+img {
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Tablet Style */
+
+@media (min-width: 768px) {
+    nav {
+        padding: 10px 0;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav li a {
+        display: inline-block;
+        width: 175px;
+        height: 35px;
+    }
+    
+    .col img{
+        width: 75%;
+    }
+
+    .yoda_and_windu{
+        width: 50%;
+    }
+
+    .jedi_and_sith_style{
+        width: 50%;
+    }
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+
+    .col {
+        border: 2px solid rgb(255, 154, 23);
+        margin: 10px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .col img{
+        width: 75%;
+    }
+
+    .yoda_and_windu{
+        width: 40%;
+    }
+
+    .gallery {
+        display: flex;
+    }
+
+}
