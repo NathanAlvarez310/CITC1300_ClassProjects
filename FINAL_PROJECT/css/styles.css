@@ -115,10 +115,12 @@ nav li a {
 
 }
 
-iframe{
-    margin: 20px auto;
+iframe {
     display: block;
-    width: 65%;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 30%;
+    height: 30%;
 }
 
 
