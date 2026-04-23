@@ -2,6 +2,10 @@
 
 body {
     background-color: rgb(75, 75, 75);
+    font-family: "Stack Sans Headline", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 img {
@@ -37,6 +41,12 @@ header {
 header h1 {
     font-size: 50px;
     color: rgb(0, 255, 85);
+}
+
+h2, h3, h4, h6{
+    font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #container {
